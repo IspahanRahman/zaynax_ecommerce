@@ -1,0 +1,1 @@
+export { default as testLogo } from "./svg-logo/test_logo.svg";
