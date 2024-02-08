@@ -1,7 +1,7 @@
 import { FormLabel, TextField, Button, styled, Box } from '@mui/material';
 
 const SignUp = () => {
-    const MainWrapper = styled(Box)(({theme})=>({
+    const MainWrapper = styled(Box)(()=>({
         backgroundColor:"#f8f9fa",
         display:"flex",
         alignItems:"center",
@@ -9,18 +9,18 @@ const SignUp = () => {
         minHeight:'100vh'
     }))
 
-    const FormWrapper = styled(Box)(({theme})=>({
+    const FormWrapper = styled(Box)(()=>({
         boxShadow: "0px 5px 15px rgba(0,0,0,0.2)",
         padding:"30px",
         width:"30%",
     }))
 
-    const ButtonContainer = styled(Box)(({theme})=>({
+    const ButtonContainer = styled(Box)(()=>({
         display: "flex",
         justifyContent: "center",
     }))
 
-    const ButtonWrapper = styled(Button)((theme)=>({
+    const ButtonWrapper = styled(Button)(()=>({
         borderRadius: 28,
         backgroundColor: "yellow",
         padding: "5px 25px",

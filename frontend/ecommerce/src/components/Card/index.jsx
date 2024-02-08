@@ -2,17 +2,10 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions, styled,Box } from '@mui/material';
+import { CardActionArea,Box } from '@mui/material';
 
 const Cards = () => {
-    const CardWrapper = styled(Box)(()=>({
-        display:"flex",
-        flexDirection:"row",
-        justifyContent:"space-between",
-        alignItems:"center",
-        borderRadius:"7px",
 
-    }))
   return (
     <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
