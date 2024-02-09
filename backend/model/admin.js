@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const adminSchema = new mongoose.Schema({
-    user_id: {
+    user_code: {
       type: String,
       required: true,
       unique: true,
@@ -13,4 +13,4 @@ const adminSchema = new mongoose.Schema({
     }
   });
 
-  module.exports = mongoose.model("User",adminSchema);
+  module.exports = mongoose.model("Admin",adminSchema);

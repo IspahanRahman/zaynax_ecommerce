@@ -17,11 +17,6 @@ const MainNav = () => {
         },
       }));
 
-    // const BodyWrapper = styled(Box)(()=>({
-    //     backgroundColor:"#f8f9fa",
-    //     display:"flex",
-    //     minHeight:'100vh'
-    // }))
 
     const MainNavWrapper = styled(AppBar)(()=>({
         backgroundColor:"#fff",
